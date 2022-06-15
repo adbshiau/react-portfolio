@@ -9,9 +9,9 @@ export default function HeroSection() {
             <h1 id='name'>Angelica Shiau</h1>
             <h3 id='job-title'>Software Engineer</h3>
             <div className='icons'>
-            <Icon name='twitter' size='big' color='grey'/>
-            <Icon name='github' size='big' color='grey'/>
-            <Icon name='linkedin' size='big' color='grey'/>
+            <a href="https://twitter.com/aya_shiau" target="_blank"><Icon name='twitter' size='big' color='grey' link/></a>
+            <a href="https://github.com/adbshiau" target="_blank"><Icon name='github' size='big' color='grey'/></a>
+            <a href="https://www.linkedin.com/in/adbshiau/" target="_blank"><Icon name='linkedin' size='big' color='grey'/></a>
             </div>
             </Grid.Row>
             
