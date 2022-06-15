@@ -3,4 +3,6 @@
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Julius Sans One', sans-serif; */
 }

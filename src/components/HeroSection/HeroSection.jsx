@@ -5,7 +5,11 @@ export default function HeroSection() {
     return (
         
         <Grid className='hero-section'>
-            <h1>Hero Section</h1>
+            <Grid.Row textAlign='center'>
+            <h1 id='name'>Angelica Shiau</h1>
+            <h3 id='job-title'>SOFTWARE ENGINEER</h3>
+            </Grid.Row>
+            
         </Grid>
     )
 }
