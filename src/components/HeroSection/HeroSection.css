@@ -1,6 +1,6 @@
 .hero-section {
     background-color: #ffd5c7;
-    height: 910px;
+    height: 800px;
     display: flex;
     align-content: center;
     text-align: center;
@@ -16,5 +16,20 @@
 }
 
 @media (min-width: 576px) {
+    .hero-section {
+        height: 910px;
+        display: flex;
+        align-content: center;
+        text-align: center;
+    }
     
+    #name {
+        font-family: 'Sacramento', cursive;
+        font-size: 90px;
+    }
+    
+    #job-title {
+        font-family: 'Raleway', sans-serif;
+        padding-top: 10px;
+    }
 }
