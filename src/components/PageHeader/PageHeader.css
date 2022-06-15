@@ -6,3 +6,26 @@
     font-family: 'Raleway', sans-serif;
     /* font-family: 'Julius Sans One', sans-serif; */
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+@media (min-width: 576px) {
+    .header {
+        background-color: #e2f1fe; 
+        padding: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: 'Raleway', sans-serif;
+        /* font-family: 'Julius Sans One', sans-serif; */
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+}

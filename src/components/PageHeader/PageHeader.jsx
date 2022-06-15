@@ -13,6 +13,7 @@ export default function PageHeader() {
             <Menu.Item as='a'>About</Menu.Item>
             <Menu.Item as='a'>Portfolio</Menu.Item>
             <Menu.Item as='a'>Contact</Menu.Item>
+            <Menu.Item as='a'>Resume</Menu.Item>
         </Menu>
         
     )
