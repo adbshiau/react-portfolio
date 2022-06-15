@@ -1,4 +1,17 @@
 .about {
     background-color: #e2f1fe;
-    height: 500px;
+    height: 900px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    .about {
+        background-color: #e2f1fe;
+        height: 800px;
+        display: flex;
+        align-content: center;
+        text-align: center;
+    }
 }
