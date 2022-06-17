@@ -7,9 +7,7 @@
 }
 
 .photo-bio {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; */
+    margin-top: 30px;
 }
 
 .photo {
@@ -37,7 +35,7 @@ img {
 @media (min-width: 576px) {
     .about {
         background-color: #e2f1fe;
-        height: 955px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -47,8 +45,8 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
-        height: 30%;
+        margin-top: 50px;
+        height: 40%;
     }
 
     .photo {
@@ -57,8 +55,6 @@ img {
 
     #label {
         font-size: 60px;
-        margin-top: 30px;
-        margin-bottom: 30px;
         font-family: 'Dancing Script', cursive;
     }
 
@@ -66,6 +62,7 @@ img {
         padding-right: 30px;
         text-align:center;
         width: 60%;
+        font-family: 'Raleway', sans-serif;
     }
 
 }
